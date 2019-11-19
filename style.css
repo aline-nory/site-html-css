@@ -1,0 +1,303 @@
+/*Comentário*/
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+body{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	background: #f1f1f1;
+}
+/*Navegador*/
+nav{ 
+	display: flex; 
+	justify-content: space-around; 
+	align-items: center; 
+	min-height: 8vh; 
+	max-height: 10vh;
+	font-family: "Raleway", sans-serif; 
+	background-color: #24252A; 	
+	width: 100%;
+}
+.logo{
+	text-transform: uppercase; 
+	letter-spacing: 5px; 
+	font-size: 20px; 
+	color: yellow;
+	margin-left: 0px;
+}
+.nav-links{ 
+ 	display: flex; 
+	justify-content: space-around; 
+	width: 55%;
+	align-items: center;
+}
+.nav-links a{ 
+ 	color: rgb(226, 226, 226); 
+ 	text-decoration: none;
+ 	letter-spacing: 3px; 
+ 	font-weight: bold;
+ 	font-size: 14px;	
+ 	text-align: center;
+ }
+ .nav-links li{
+ 	list-style: none; 
+ 	margin-top: 30px;
+ 	font-size: 25px;
+	margin: 5%;
+	font-family: sans-serif;
+ }
+ /*Navegador*/
+
+ /*Home*/
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: 0% auto;
+	background: url(css/home.jpg) no-repeat 50% 30%;
+	display: table;
+	background-size: cover;
+	margin-top: 0px; 
+}
+.tituloHome h1 {
+	max-width: 900px;
+	text-align: left; 
+ 	font-family: "Raleway", sans-serif;
+	color: #F9F3F4;
+ 	font-size: 500%;
+ 	margin-top: 0%;
+	margin-left: 50px;
+	padding: 30px 20px;
+	text-shadow: 0px 0px 300px #000;
+}
+.subtituloHome p {
+	max-width: 900px; 
+	text-align: left; 
+	font-family: "Raleway", sans-serif; 
+	color: #F9F3F4;
+	font-size: 145%;
+	margin-top: -210px;
+	margin-left: 40px;
+	padding: 90px 30px;
+	line-height: 1;
+	height:300px;
+}
+.botaoCliqueAqui {
+	border-radius: 9px;
+	font-family: "Oswald", sans-serif;
+	color: #036A81;
+	border: solid #036A81 3px;
+	font-size: 110%;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 20px;
+}
+.botaoCliqueAqui:hover {
+	color: #fff;
+	border: solid #fff 3px;
+	margin-top: -170px; 
+}
+.btn {
+	padding: 60px 40px;
+	margin-top: -430px;
+	margin-left: 40px;
+}
+.quemSomos{
+	font-size: 100%;
+	line-height: 3;
+	text-align: justify;
+	margin: 3%;
+	font-family: sans-serif;
+	margin-top: 110px;
+ }
+ /*Home*/
+
+ /*Quem somos*/
+.tituloQuemSomos {
+ 	color: #036A81;
+ 	margin-bottom: 40px;
+ 	margin-left: 60px; 
+ 	font-size: 30px;
+ 	font-family: "Oswald", sans-serif; 
+ 	text-transform: uppercase;
+ 	text-align: left;
+ 	margin-top: 30px;
+ }
+ .subtituloQuemSomos{
+ 	font-size: 20px;
+	line-height: 1.3;
+	text-align: left;
+	margin: 9%;
+	font-family: "Raleway", sans-serif;
+	margin-top: -40px;
+	padding: 10px 30px;
+	width: 590px;
+ }
+.imagemQuemSomos{
+	font-family: "Oswald", sans-serif; 
+	background: url(css/img001.jpg) no-repeat 50% 30%;
+	background-size: cover;
+	color: #FFF;
+	width: 400px;
+ 	height: 250px;
+ 	padding: 20px;
+ 	text-align: center;
+	float: right;
+	margin-top: 30px;
+	margin-right: 80px;
+}
+/*Quem somos*/
+ 
+/*Anuncio - Preencha dos dados*/
+.anuncioImagem {
+	height: 100%;
+	width: 100%;
+	margin: 0% auto;
+	background: url(css/img.png) no-repeat 50% 30%;
+	display: table;
+	top: 0;
+	background-size: cover;
+	vertical-align: middle;
+}
+.anuncioTitulo {
+	font-family: "Raleway", sans-serif; 
+	color: #F9F3F4; 
+	max-width: 440px; 
+	text-decoration: none; 
+	text-transform: none; 
+	text-align: left; 	
+	font-size: 390%; 
+	line-height: 1; 
+	margin: 3%;
+	padding: 50px 50px;  
+	font-weight: bolder;
+}
+.anuncioSubtitulo{
+	font-family: "Raleway", sans-serif; 
+	color: #F9F3F4;
+	text-decoration: none; 
+	font-size: 160%;
+	text-align: left;
+	padding: 10px 50px; 
+	margin: 3%; 
+	margin-top: -30px;
+}
+/*Anuncio - Preencha dos dados*/
+
+/*Benefícios*/
+.tituloBeneficios {
+ 	color: #036A81;
+ 	margin-bottom: 40px;
+ 	margin-left: 60px; 
+ 	font-size: 30px;
+ 	font-family: "Oswald", sans-serif; 
+ 	text-transform: uppercase;
+ 	text-align: left;
+ 	margin-top: 30px;
+ }
+.subtituloBeneficios{
+ 	font-size: 20px;
+	line-height: 1.3;
+	text-align: left;
+	margin: 9%;
+	font-family: "Raleway", sans-serif;
+	margin-top: -40px;
+	padding: 10px 30px;
+	width: 1100px;
+}
+/*Benefícios*/
+
+/*Formulário*/
+.formularioConteudo { 
+  	font-family: "Oswald", sans-serif; 
+ 	color: #F9F3F4;
+ 	padding: 30px; 
+ 	display:table;
+ 	margin-top: -30px;
+ }
+.formulario {
+ 	float: left;
+ }
+.formularioTitulo {
+ 	margin-bottom: 40px;
+ 	margin-left: 90px; 
+ 	text-transform: uppercase;
+ 	text-align: justify;
+ 	margin-top: 90px;
+}
+.formatacaoFormularioIntro {
+ 	margin-top: 20px;
+ 	font-size: 15px;
+ 	line-height: 25px;
+ 	padding: 20px;
+ 	padding-top: 10px;
+ 	margin-left: 30px;
+ 	color:#24252A;
+ 	font-family: sans-serif; 
+ 	width: 350px;
+}
+.formularioAnuncio { 
+	font-family: "Oswald", sans-serif; 
+	background: url(css/anuncioCvc.jpg) no-repeat 50% 30%;
+	background-size: cover;
+	color: #FFF;
+	width: 300px;
+ 	height: 230px;
+ 	padding: 20px;
+ 	text-align: center;
+	float: right;
+	margin-top: 30px;
+	margin-right: 80px;
+}
+.formularioAnuncio2 { 
+	font-family: "Oswald", sans-serif; 
+	background: black;
+	background: url(css/anuncioCancun.jpg) no-repeat 40% 50%;
+	background-size: cover;
+	color: #FFF;
+	width: 300px;
+ 	height: 230px;
+ 	padding: 20px;
+ 	text-align: center;
+	display: table-cell;
+	float: right;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+/*Formulário*/
+
+/*Rodapé*/
+.footer{
+	background-color: #24252A;
+	width: 100%;
+	height: 150px;
+	padding: 4px 10px 10px 10px;
+}
+.redes{
+	height: 50px;
+	width: 200px;
+    padding: 50px;
+    display: block;
+    list-style-type: none;
+    line-height: 10px;
+    float: right;
+    margin-top: -20px
+}
+.campoFormulario{
+	float: left;
+	color: #FFF;
+	font-family: "Raleway", sans-serif;
+	margin: 50px;
+	text-align: left;
+	margin-top: 45px
+}
+/*Rodapé*/
+
+label{
+	display: inline-block;
+	width: 900px;
+	float: left;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<head> 
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Mochilando</title>
+		<link rel="stylesheet" href="style.css">
+		<style> 
+			#background {
+				background: url(css/img002.jpg) no-repeat 50% 20%; 
+				background-size: cover; 
+				height: 420px; 
+				width: 100%; 
+				margin-top:-40px;}
+		</style>
+	</head>
+	<body >
+		<header>
+			<nav>
+				<div class="logo"><h4>Mochilando</h4></div>
+				<ul class="nav-links">						
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html#quemSomos">Quem somos</a></li>
+					<li><a href="index.html#beneficios">Como funciona</a></li>
+					<li><a href="formulario.html">Login</a></li>
+				</ul>
+			</nav> 
+		</header>
+		<section id="background">
+			<section class="anuncioTitulo" style="font-size: 272%; background-color: #036A81; opacity: 0.2;">
+			Preencha os dados e receba por email uma prévia do cronograma
+			</section>	
+		</section>
+		<section class="formularioAnuncio"></section>
+		<section class="formularioAnuncio2"></section>
+		<section class="formularioConteudo">			    
+			<div class="formulario">
+			    <div class="formatacaoFormularioIntro">	
+					<form method="post" action="#">		
+						<div id="formt">
+							<label>Nome completo</label>
+							<input type="text" placeholder="Digite seu nome" size="35">
+						</div>
+						<div id="formt">
+							<label>E-mail</label>
+							<input type="text" id="E-mail" placeholder="Digite email" size="35">
+						</div>
+						<div id="formt">
+							<label>Destino</label>
+							<input type="text" id="Destino" placeholder="Digite seu destino" size="35"></br>
+						</div>
+						<div id="formt">
+							<label>Primeiro mochilão?</label>
+							<input type="radio" name="primeiroMochilao" value="Sim">Sim<br>
+							<input type="radio" name="primeiroMochilao" value="Sim">Não
+						</div>
+					<input type="submit" value="Próxima etapa">
+				</div>
+			</div>	
+		</section>
+		<footer class="footer">
+			<section class="campoFormulario">
+    		Dúvidas, críticas, sugestões ou elogios?
+    		<section class="faleConosco" style="color: yellow">Fale conosco<a href="formulario.html"> aqui!</a></section>
+    		</section>  
+    		<ul class="redes">
+    			<a href="#"><img src="css/insta.png" style="height: 50px"></a>
+    			<a href="#"><img src="css/email.png" style="height: 50px"></a>
+    			<a href="#"><img src="css/whats.png" style="height: 50px"></a>
+    		</ul>			
+    	</footer>
+	</body>
+</html>
